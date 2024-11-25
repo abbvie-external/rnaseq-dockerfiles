@@ -1,0 +1,18 @@
+bam: True
+coverage: null
+error_model: /neat-genreads/models/errorModel_toy.p
+error_rate: null
+model_p: /neat-genreads/models/MutModel_NA12878.p
+mut_rate: 0.00333
+pe_length_std: 238 61
+readlength: 125
+reference:
+  class: File
+  location: file:///data/neat/genome/null
+  secondaryFile:
+    - class: File
+      location: file:///data/neat/genome/null
+target_bed:
+  class: File
+  location: file:///data/neat/CancerPanel_v2_target.bed
+vcf: True

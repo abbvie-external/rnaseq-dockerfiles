@@ -1,0 +1,13 @@
+diff --git a/how_are_we_stranded_here/check_strandedness.py b/how_are_we_stranded_here/check_strandedness.py
+index 793841c..5361e8b 100755
+--- a/how_are_we_stranded_here/check_strandedness.py
++++ b/how_are_we_stranded_here/check_strandedness.py
+@@ -191,6 +191,8 @@ def main():
+         read_len_median_ss = median(read_lengths)
+         read_len_sd_ss = stdev(read_lengths)
+         if read_len_sd_ss == 0: read_len_sd_ss = 1
++        print(f'read_len_median_ss: {read_len_median_ss}')
++        print(f'read_len_sd_ss: {read_len_sd_ss}')
+ 
+     # align with kallisto
+     print('quantifying with kallisto')
